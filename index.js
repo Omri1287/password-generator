@@ -5,14 +5,18 @@ let keyBox1 = document.getElementById("key-box1")
 let keyBox2 = document.getElementById("key-box2")
 let passButton = document.getElementById("passButton")
 
+function randomChar(){
+    let randomNum = Math.floor(Math.random()*characters.length)
+    return characters[randomNum]
+}
 passButton.addEventListener("click", function(){
-    console.log("test")
+    keyBox1.textContent = "               "
+    keyBox2.textContent = "               "
     let i=0
     while (i<=15){
         i++;
         let randomChar = Math.floor(Math.random()*characters.length)
-        console.log(randomChar)
-        keyBox1.textContent = characters[randomChar]
-        keyBox2.textContent = characters[randomChar]
+        keyBox1.textContent += randomChar()
+        keyBox2.textContent += randomChar()
     }
 })
