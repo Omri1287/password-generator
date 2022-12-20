@@ -15,7 +15,6 @@ passButton.addEventListener("click", function(){
     let i=0
     while (i<=15){
         i++;
-        let randomChar = Math.floor(Math.random()*characters.length)
         keyBox1.textContent += randomChar()
         keyBox2.textContent += randomChar()
     }
