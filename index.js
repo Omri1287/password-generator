@@ -6,7 +6,8 @@ let keyBox2 = document.getElementById("key-box2")
 let passButton = document.getElementById("passButton")
 
 passButton.addEventListener("click", function(){
-    console.log("yo")
+    console.log("test")
+    let i=0
     while (i<=15){
         i++;
         let randomChar = Math.floor(Math.random()*characters.length)
