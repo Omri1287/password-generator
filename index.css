@@ -71,4 +71,9 @@ h2{
     margin-top: 70px;
     background: #273549;
     border-radius: 6px;
+    color:  #10B981;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
 }
