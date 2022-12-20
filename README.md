@@ -1,5 +1,7 @@
 # cR9B46Sg
 
+visit my website https://omri1287.github.io/password-generator/
+
 Quick start:
 
 ```
